@@ -1,0 +1,1 @@
+print("【ENCRYPT】A2FaBO8sYf09uA+SuUqxdg=="=="【ENCRYPT】A2FaBO8sYf09uA+SuUqxdg==")
