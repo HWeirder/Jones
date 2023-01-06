@@ -67,7 +67,7 @@ def translate(text):
         "query": text,
         "transtype": "realtime",
         "simple_means_flag": "3",
-        "sign": execjs.compile(read_js("signa.js")).call("e", text),
+        "sign": execjs.compile(read_js("js/signa.js")).call("e", text),
         "token": "b1f6c07ffe99d382a2faaa129698ca30",
         "domain": "common"
     }

@@ -4,11 +4,21 @@
 block_cipher = None
 
 
+py_files = [
+    'baidu_translate.py',
+]
+py_module = [
+    'package',
+]
+add_files = [
+    ('js', 'js'),
+]
+
 a = Analysis(
-    ['baidu_translate.py'],
-    pathex=['package'],
+    py_files,
+    pathex=py_module,
     binaries=[],
-    datas=[('signa.js','.')],
+    datas=add_files,
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
